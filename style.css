@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+#main{
+    position: relative;
+    background-color: pink;
+    height: 100vh;
+}
+
+#main #login{
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#login .text-heading{
+    padding-top: 30px;
+}
+
+#login .text-heading .heading{
+    text-align: center;
+    color: darkred;
+    font-size: 30px;
+}
+
+#login .form-items{
+    padding-top: 25px;
+}
+
+#login .form-items .form-item{
+    margin-top: 3px;
+}
+
+.form-items .sub-heading .acc{
+    color: red;
+    font-size: 16px;
+}
+
+.form-items .form-item .text-login1{
+    border-left: 1px solid #000 ;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #dddfe2;
+    
+}
+.form-items .form-item .text-login2{
+    border-left: 1px solid #000 ;
+    border-right: 1x solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #dddfe2;
+    
+}
+.form-items .form-item .text-login1:focus,
+.form-items .form-item .text-login2:focus{
+    border:1px solid lightblue;
+    outline: none;
+}
+.form-items .abc{
+    padding-top: 15px;
+}
+
+#login .forgot-password .password{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#login .forgot-password{
+    padding-top: 15px;
+}
+
+#login .to-send{
+    padding-top: 12px;
+    padding-bottom: 20px;
+    
+}
+#login .to-send .send{
+    background-color: darkred;
+    border: none;
+    padding: 10px 65px;
+    color: #fff;
+}
